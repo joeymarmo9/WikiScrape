@@ -4,3 +4,4 @@ beautifulsoup4==4.12.3
 spacy==3.7.5
 gunicorn==22.0.0
 flask-cors
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
