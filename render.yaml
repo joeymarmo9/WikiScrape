@@ -2,6 +2,7 @@ services:
   - type: web
     name: WikiScrape
     env: python
-    pythonVersion: 3.11.9
+    runtime: python
+    runtimeVersion: 3.11.9
     buildCommand: pip install --upgrade pip setuptools wheel && pip install -r requirements.txt
     startCommand: gunicorn app:app
